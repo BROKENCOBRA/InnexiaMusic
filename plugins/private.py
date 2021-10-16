@@ -80,7 +80,7 @@ def map(pos):
             [InlineKeyboardButton("➕ Aᴅᴅ Mᴇ 🙋‍♀️", url=f"https://t.me/Innocent_Bacha_Bot?startgroup=true")],
             [InlineKeyboardButton(text = '📲 Qᴜᴇʀʏ', url=f"https://t.me/shivamdemon"),
              InlineKeyboardButton(text = '💬 Gʀᴏᴜᴘ', url=f"https://t.me/cchour")],
-            [InlineKeyboardButton(text = 'Oᴡɴᴇʀ', url=f"https://t.me/imnikkkk)],
+            [InlineKeyboardButton(text = 'Oᴡɴᴇʀ', url=f"https://t.me/imnikkkk)"],
             [InlineKeyboardButton(text = '◀️', callback_data = f"help+{pos-1}")]
         ]
     else:
