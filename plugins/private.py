@@ -14,15 +14,15 @@ def _start(client, message):
             [
                 [
                     InlineKeyboardButton(
-                        "➕ Aᴅᴅ Mᴇ 🙋‍♀️", url=f"https://t.me/Innocent_Bacha_Bot?startgroup=true")],
+                        "➕ Aᴅᴅ Mᴇ 🙋‍♀️", url=f"https://t.me/Misswilsonbot?startgroup=true")],
                 [
                     InlineKeyboardButton(
-                        "📲 Qᴜᴇʀʏ", url=f"https://t.me/shivamdemon"), 
+                        "😇 Bᴇsᴛɪᴇ", url=f"https://t.me/myselfjery"), 
                     InlineKeyboardButton(
-                        "💬 Gʀᴏᴜᴘ ", url=f"https://t.me/cchour")
+                        "💬 Gʀᴏᴜᴘ ", url=f"https://t.me/fun_withfrnds")
                 ],[
                     InlineKeyboardButton(
-                        "Oᴡɴᴇʀ", url=f"https://t.me/imnikkkk")
+                        "❣️ Oᴡɴᴇʀ", url=f"https://t.me/khushiwilson11")
                 ]
             ]
         ),
@@ -37,7 +37,7 @@ async def gstart(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "💬 Aɴʏ Pʀᴏʙʟᴇᴍ", url=f"https://t.me/imnikkkk"
+                        "💬 Aɴʏ Pʀᴏʙʟᴇᴍ", url=f"https://t.me/khushiwilson11"
                     )
                 ]
             ]
@@ -77,10 +77,10 @@ def map(pos):
     elif(pos==len(tr.HELP_MSG)-1):
         url = f"https://t.me/shivamdemon"
         button = [
-            [InlineKeyboardButton("➕ Aᴅᴅ Mᴇ 🙋‍♀️", url=f"https://t.me/Innocent_Bacha_Bot?startgroup=true")],
-            [InlineKeyboardButton(text = '📲 Qᴜᴇʀʏ', url=f"https://t.me/shivamdemon"),
+            [InlineKeyboardButton("➕ Aᴅᴅ Mᴇ 🙋‍♀️", url=f"https://t.me/Misswilsonbot?startgroup=true")],
+            [InlineKeyboardButton(text = '😇 Bᴇsᴛɪᴇ', url=f"https://t.me/myselfjery"),
              InlineKeyboardButton(text = '💬 Gʀᴏᴜᴘ', url=f"https://t.me/cchour")],
-            [InlineKeyboardButton(text = 'Oᴡɴᴇʀ', url=f"https://t.me/imnikkkk")],
+            [InlineKeyboardButton(text = '❣️ Oᴡɴᴇʀ', url=f"https://t.me/khushiwilson11")],
             [InlineKeyboardButton(text = '◀️', callback_data = f"help+{pos-1}")]
         ]
     else:
@@ -100,7 +100,7 @@ async def ghelp(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "🟡 Click here for help 🟡", url=f"https://t.me/innocent_bacha_bot?start"
+                        "🟡 Click here for help 🟡", url=f"https://t.me/Misswilsonbot?start"
                     )
                 ]
             ]
